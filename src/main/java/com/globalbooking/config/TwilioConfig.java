@@ -1,4 +1,4 @@
-package com.globalbooking.loginOtp.config;
+package com.globalbooking.config;
 
 import com.twilio.Twilio;
 import jakarta.annotation.PostConstruct;
