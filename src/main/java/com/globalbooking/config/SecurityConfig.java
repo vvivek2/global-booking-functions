@@ -27,7 +27,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // IMPORTANT: use patterns, not setAllowedOrigins
-        config.setAllowedOriginPatterns(List.of("http://localhost:3000","https://global-booking-ui.onrender.com"));
+        config.setAllowedOriginPatterns(List.of("http://localhost:3000","https://mk-totalcare.onrender.com"));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
