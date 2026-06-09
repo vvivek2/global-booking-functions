@@ -19,6 +19,35 @@ public class User {
     private String mobileNumber;
     private String password;
 
+    // NEW FIELDS FOR GOOGLE LOGIN
+    private String authProvider;   // EMAIL or GOOGLE
+    private String profilePic;     // Google profile picture
+    private String googleId;       // Google unique ID (sub)
+
+    public String getAuthProvider() {
+        return authProvider;
+    }
+
+    public void setAuthProvider(String authProvider) {
+        this.authProvider = authProvider;
+    }
+
+    public String getProfilePic() {
+        return profilePic;
+    }
+
+    public void setProfilePic(String profilePic) {
+        this.profilePic = profilePic;
+    }
+
+    public String getGoogleId() {
+        return googleId;
+    }
+
+    public void setGoogleId(String googleId) {
+        this.googleId = googleId;
+    }
+
     public Long getId() {
         return id;
     }
