@@ -21,4 +21,9 @@ public class RegisterController {
         return registerService.registerService(request);
         //return ResponseEntity.ok(message);
     }
+
+    @GetMapping("/health")
+    public String healthCheck() {
+        return "User Registration Service is up and running!";
+    }
 }
